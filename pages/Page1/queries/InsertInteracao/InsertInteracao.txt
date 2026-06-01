@@ -1,0 +1,4 @@
+{
+  "lead_id": "{{Table1.selectedRow.id}}",
+  "descricao": "{{Input2.text}}"
+}

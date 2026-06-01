@@ -31,7 +31,24 @@
           "value": true
         }
       ],
-      "queryParameters": [],
+      "queryParameters": [
+        {
+          "key": "select",
+          "value": "*"
+        },
+        {
+          "key": "order",
+          "value": "criado_em.desc"
+        },
+        {
+          "key": "limit",
+          "value": "10"
+        },
+        {
+          "key": "offset",
+          "value": "{{ (Table1.pageNo - 1) * 10 }}"
+        }
+      ],
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
